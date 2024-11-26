@@ -10,7 +10,7 @@ app.config['SECRET_KEY'] = os.urandom(12)
 
 
 ##connect mySQL
-app.config['SQLALCHEMY_DATABASE_URI'] = 'mysql+pymysql://root:cindy2421342235@localhost/petservice'
+app.config['SQLALCHEMY_DATABASE_URI'] = 'mysql+pymysql://root:yourPassword@localhost/yourschema'
 
 db = SQLAlchemy(app)
 bcrypt = Bcrypt(app)
